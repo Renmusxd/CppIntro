@@ -26,7 +26,7 @@ When we first call `bar` it will make enough space for two integers, we will cal
 
 ```
 ---- Memory ----
-bar:    int x
+bar:	int x
 		int y <-- sp
 ```
 
@@ -34,9 +34,9 @@ Now when `bar` calls `foo`, `foo` will use the last space occupied by `bar` (cal
 
 ```
 ---- Memory ----
-bar:    int x
+bar:	int x
 		int y
-foo:    int x
+foo:	int x
 		int y
 		int z <-- sp
 ```

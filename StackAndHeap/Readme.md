@@ -26,19 +26,19 @@ When we first call `bar` it will make enough space for two integers, we will cal
 
 ```
 ---- Memory ----
-bar:	int x
-		int y <-- sp
+bar:    int x
+        int y <-- sp
 ```
 
 Now when `bar` calls `foo`, `foo` will use the last space occupied by `bar` (called the stack pointer, `sp`) to start its own stack frame, it also updates `sp`:
 
 ```
 ---- Memory ----
-bar:	int x
-		int y
-foo:	int x
-		int y
-		int z <-- sp
+bar:    int x
+        int y
+foo:    int x
+        int y
+        int z <-- sp
 ```
 
 Now when `foo` returns it will set `sp` to its old value, thus allowing the data it wrote to be overwritten by whoever may be called next.

@@ -7,7 +7,7 @@ I'm not yet sure what I'll cover.
 Reading order:
 
 1. (This)
-2. StackAndHeap
+2. [StackAndHeap](https://github.com/Renmusxd/CppIntro/tree/master/StackAndHeap)
 
 # Compiling and optimizations
 

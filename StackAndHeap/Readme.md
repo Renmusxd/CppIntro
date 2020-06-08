@@ -59,3 +59,5 @@ Arena 63.9888ms.
 ```
 
 So the heap was half as fast as the stack, and a third as fast as the arena.
+
+![Brr](https://github.com/Renmusxd/CppIntro/StackAndHeap/brrr.png)
